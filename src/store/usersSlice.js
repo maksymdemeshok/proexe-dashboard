@@ -11,7 +11,6 @@ export const fetchUsers = createAsyncThunk(
       throw new Error("Server error");
     }
     const data = await response.json();
-    console.log(data);
     return data;
   }
 );
