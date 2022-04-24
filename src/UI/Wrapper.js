@@ -7,6 +7,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   width: ${props => props.width || '100%' };
   margin: 0 auto;
+  min-width: 350px;
 
 `;
 

@@ -10,6 +10,8 @@ const StyledForm = styled.form`
   max-width: 700px;
   width: 100%;
   margin: 50px auto;
+  padding: 0px 10px;
+  box-sizing:border-box;
 `;
 
 const InputWrapper = styled.div`
